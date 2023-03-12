@@ -1,0 +1,42 @@
+.features {
+  background-color: #31b675;
+  color: white;
+  height: 75vh;
+  padding: 50px 0;
+  overflow: hidden;
+}
+.features h1 {
+  font-size: 40px;
+}
+.features ul {
+  margin: 20px 0;
+}
+.features ul li {
+  margin: 10px 0;
+}
+.features .row img {
+  margin-right: 10px;
+}
+.features .row {
+  position: relative;
+}
+.features .image {
+  position: absolute;
+  height: 450px;
+  
+}
+@media screen and (max-width: 768px) {
+  .features .flex_space {
+    flex-direction: column;
+    padding: 40px;
+  }
+  .features .row {
+    width: 100%;
+  }
+  .features .row2 {
+    display: none;
+  }
+  .features {
+    height: 60vh;
+  }
+}
